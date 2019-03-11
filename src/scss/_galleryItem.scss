@@ -1,0 +1,34 @@
+$spacing10: 10px;
+$spacing20: 20px;
+$spacing30: 30px;
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+  }
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: $spacing20;
+    margin: $spacing30;
+}
+.galleryItems{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:space-around;
+    padding: $spacing10;
+    @include border-radius($spacing10);
+
+}
+.galleryImg{
+    max-width: 100%;
+}
+
+.description{
+    margin-bottom: $spacing10;
+}

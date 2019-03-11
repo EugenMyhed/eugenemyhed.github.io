@@ -1,0 +1,25 @@
+$spacing: 30px;
+
+.menuContainer{
+    display: flex;
+
+    a{
+        margin-right: $spacing;
+        text-decoration: none;
+        color: #fff;
+    }
+}
+.mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: $spacing;
+
+    a{
+        img{
+            width: 150px;
+        }
+
+    }
+
+}

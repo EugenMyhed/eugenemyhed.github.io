@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url('../img/backgroundImg2.jpg');
+    background-position: top top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+#root{
+    width: 80%;
+}
